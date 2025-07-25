@@ -1,0 +1,6 @@
+#!/bin/sh
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+(sleep 10; ethtool -A eth1 rx on tx on) &
+{ sleep 120; /etc/init.d/ddns restart; } &
+exit 0
