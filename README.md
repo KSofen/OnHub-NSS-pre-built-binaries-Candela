@@ -4,3 +4,5 @@ This firmware pushes the OnHub to the maximum speed and throughput the hardware 
 OnHub routers are far past end of life.  OpenWrt release firmware still supports OnHub, but not NSS hardware.  Use at your own risk.
 
 This firmware supports a lot of powerful OpenWrt features.  OpenVPN, WireGuard, AdGuard, Policy Based Routing, Switch, Dynamic DNS, Proto Relay, USB device mounting, Connecting printers to USB.
+
+A clean install is required for this to operate properly.  If you retain settings and configurations, whatever is in your overlay will remain including packages not just settings.  You have to start over and build a system from scratch.  If you flash, then restore a backup, the same problem occurrs - old packages from the overlay will be loaded, not the packages in the firmware.
