@@ -5,4 +5,4 @@ OnHub routers are far past end of life.  OpenWrt release firmware still supports
 
 This firmware supports a lot of powerful OpenWrt features.  OpenVPN, WireGuard, AdGuard, Policy Based Routing, Switch, Dynamic DNS, Proto Relay, USB device mounting, Connecting printers to USB.
 
-A clean install is required for this to operate properly.  If you retain settings and configurations, whatever is in your overlay will remain including packages not just settings.  You have to start over and build a system from scratch.  If you flash, then restore a backup, the same problem occurrs - old packages from the overlay will be loaded, not the packages in the firmware.
+A clean install is required for this to operate properly.  If you retain settings and configurations, whatever is in your overlay will remain including packages not just settings.  You have to start over and build a system from scratch.  If you flash, then restore a backup, the same problem occurs - old packages from the overlay will be loaded, not the packages in the firmware.
